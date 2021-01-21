@@ -1,8 +1,18 @@
 {
   "name": "ldsd-cli",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
+  "keywords": [
+    "asp",
+    "asp-cli"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.leidishidai.com/repository/npm-hosted/"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^3.0.2",
@@ -11,10 +21,7 @@
     "ora": "^4.0.2"
   },
   "bin": {
-    "ldsd-cli": "main.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "asp-cli": "main.js"
   },
   "author": "Aanll",
   "license": "ISC"
